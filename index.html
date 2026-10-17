@@ -5,8 +5,23 @@
 .hero{display:block;width:min(68%,240px);height:auto;margin:4px auto 14px}.muted{color:#637082;font-size:13px;line-height:1.6}.selectlabel{display:block;margin:7px 0 2px;font-weight:750}.field{background:#fff}.school{background:#f1f5f2;border-radius:10px;padding:11px 12px;margin:12px 0;font-size:12px;line-height:1.65}.status{min-height:30px;font-weight:750;color:#795723;margin:8px 0}.selectHint{font-size:12px;color:#667487;margin-top:-8px;margin-bottom:12px} 
 /* v0.7 mobile-first refinements */
 @media(max-width:600px){body{padding:0;background:#fff}.app{border:0;border-radius:0;box-shadow:none;min-height:100dvh;padding:16px max(16px,env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));width:100%}h1{font-size:clamp(22px,6.5vw,27px)}.hero{width:min(52%,190px)}.question{font-size:clamp(22px,6vw,27px);padding:22px 4px}.field{min-height:52px;font-size:18px}.btn{min-height:52px;font-size:18px}.school{font-size:12px}.actions{gap:8px}}
+/* v0.4 readability-only patch: learning records and daily challenge */
+#ruleBoard, #progressBoard {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #202b33;
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+#progressBoard > b { display: block; font-size: 20px; margin-bottom: 12px; }
+#progressBoard p { font-size: 18px; line-height: 1.85; margin: 12px 0 16px; }
+#progressBoard p b { font-size: 20px; }
+@media (max-width: 600px) {
+  #ruleBoard, #progressBoard, #progressBoard p { font-size: 18px; }
+  #progressBoard > b, #progressBoard p b { font-size: 20px; }
+}
 </style></head><body><main class="app">
-<section id="start"><div class="sub">MAKI & MEI · STUDY GAME</div><h1>学習チャレンジ LINE公開おためし版</h1><img class="hero" src="assets/nekoda-nekoo.png" alt="ガチャゲット応援キャラクター 猫田猫夫さん"><div class="school">貝塚市立第四中学校 採用教科書を参考に制作（正式な教科書準拠の照合は未完了）<br>英語：NEW CROWN English Series 1【三省堂】<br>国語：国語1【光村図書出版】<br>年間指導計画を参考に出題範囲を整備予定</div><label class="selectlabel" for="player">プレイヤー</label><select id="player" class="field"><option value="マキ">マキ</option><option value="メイ">メイ</option></select><label class="selectlabel" for="term">学期</label><select id="term" class="field"><option value="trial">学期未分類（おためし）</option><option value="1">1学期</option><option value="2">2学期</option><option value="3">3学期</option></select><label class="selectlabel" for="subject">科目</label><select id="subject" class="field"><option value="mixed">漢字（読み＋書き取り）</option><option value="read">漢字の読み</option><option value="write">漢字の書き取り</option><option value="word">英単語</option><option value="phrase">英熟語</option></select><div id="ruleBoard" class="school" aria-live="polite">ルールの読み込み中</div><div id="progressBoard" class="school" aria-live="polite">この端末の記録を読み込み中</div><div id="availability" class="status" aria-live="polite"></div><button id="startBtn" class="btn">10問スタート</button><p class="muted">4択なし。読みは文字入力、書き取りは指・マウスで自己採点。英単語のおためし10問を追加。英熟語と学期別問題は準備中や。</p><p class="note">おためし版：1日最大3回・全問正解で日次クリア。端末内の記録は削除や端末変更で失われる可能性がある。2人の記録同期・正式ガチャ券は未対応。</p></section>
+<section id="start"><div class="sub">MAKI & MEI · STUDY GAME</div><h1>学習チャレンジ LINE公開おためし版</h1><img class="hero" src="assets/nekoda-nekoo.png" alt="ガチャゲット応援キャラクター 猫田猫夫さん"><div class="school">貝塚市立第四中学校 採用教科書を参考に制作（正式な教科書準拠の照合は未完了）<br>英語：NEW CROWN English Series 1【三省堂】<br>国語：国語1【光村図書出版】<br>年間指導計画を参考に出題範囲を整備予定</div><label class="selectlabel" for="player">プレイヤー</label><select id="player" class="field"><option value="マキ">マキ</option><option value="メイ">メイ</option></select><label class="selectlabel" for="term">学期</label><select id="term" class="field"><option value="trial">学期未分類（おためし）</option><option value="1">1学期</option><option value="2">2学期</option><option value="3">3学期</option></select><label class="selectlabel" for="subject">科目</label><select id="subject" class="field"><option value="mixed">漢字（読み＋書き取り）</option><option value="read">漢字の読み</option><option value="write">漢字の書き取り</option><option value="word">英単語</option><option value="phrase">英熟語</option></select><div id="ruleBoard" class="school" aria-live="polite">ルールの読み込み中</div><div id="progressBoard" class="school" aria-live="polite">この端末の記録を読み込み中</div><div id="availability" class="status" aria-live="polite"></div><button id="startBtn" class="btn">10問スタート</button><p class="muted">4択なし。読みは文字入力、書き取りは指・マウスで自己採点。英単語・英熟語も追加。学期別問題は教科書の出題範囲を確認してから公開するで。</p><p class="note">おためし版：1日最大3回・全問正解で日次クリア。端末内の記録は削除や端末変更で失われる可能性がある。2人の記録同期・正式ガチャ券は未対応。</p></section>
 <section id="play" class="hidden"><div class="info"><span id="step"></span><span id="score"></span></div><div class="bar"><div id="progress"></div></div><span id="type" class="tag"></span><div id="question" class="question"></div>
 <div id="readArea"><label for="typed"><strong id="inputLabel">答えを入力</strong></label><input id="typed" class="field" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done"><button id="readCheck" class="btn">答え合わせ</button></div>
 <div id="writeArea" class="hidden"><strong>指やマウスで漢字を書こう</strong><div class="canvasbox"><canvas id="pad" aria-label="手書き入力欄"></canvas></div><div class="actions"><button id="clear" class="btn secondary">書き直す</button><button id="reveal" class="btn">答えを見る</button></div><div id="selfCheck" class="hidden"><div class="answerBox">正解：<span id="correctText"></span></div><p class="note">自分の書いた漢字と比べてな。正しければ「正解」、違ったら「不正解」を押してな。</p><div class="actions"><button id="incorrect" class="btn secondary">不正解（0点）</button><button id="correct" class="btn">正解（10点）</button></div></div></div>
@@ -218,6 +233,7 @@ window.MAKI_MEI_BANK = [
   }
 ];
 </script>
+<script src="extra_questions.js"></script>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);

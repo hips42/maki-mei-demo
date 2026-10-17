@@ -1,19 +1,10 @@
-# マキ＆メイ LINE公開おためし版
+# マキ＆メイ LINE公開テスト版（200問追加＋文字拡大）
 
-GitHub Pages専用の静的ファイル。`index.html` と `assets/nekoda-nekoo.png` を同じ構造で公開する。
+公開先：GitHub Pages / maki-mei-demo
 
-## 注意
-- FastAPI・SQLite・認証は含まれない。
-- 点数・挑戦履歴は使用中ブラウザの localStorage のみに保存。別端末では共有されず、削除で消える。
-- マキ・メイ選択は識別・認証ではない。
-- 50問テスト・ガチャ券発行は未実装。
-- 問題は教科書掲載範囲未確認の試作問題。
-- 公開URLを知る人はアクセス可能。個人情報を登録しない。
-
-## 公開
-1. 別の Public リポジトリ（例 `maki-mei-demo`）を作る。**本体のPrivateリポジトリは変更しない。**
-2. このフォルダの `index.html`, `assets/nekoda-nekoo.png`, `.nojekyll` をアップロードする。
-3. Settings > Pages > Build and deployment > Deploy from a branch > main / (root) > Save.
-4. 公開URL `https://<username>.github.io/<repo>/` をLINEで開く。
-
-ネット公開前に保護者が閲覧範囲や利用ルールを確認すること。
+- 既存20問＋追加200問（漢字の読み50・書き取り50・英単語50・英熟語50）
+- 今日の挑戦・学習記録・マキ／メイの記録欄を18〜20pxに拡大
+- 問題は学校の教科書との個別照合が未完了のため、すべて学期未分類のおためし扱い
+- 端末内localStorage記録。端末間共有・完全な永続保存・正式ガチャ券は未実装
+- index.html と extra_questions.js はセットで配置すること
+- 元の公開リポジトリに上書きする場合は4ファイル（index.html、extra_questions.js、assets/nekoda-nekoo.png、.nojekyll）を同じ配置で使用
