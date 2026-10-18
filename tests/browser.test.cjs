@@ -81,11 +81,14 @@ async function answer(page,correct=false){
   return q;
 }
 
-test('trial disabled, all three terms selectable, mobile and desktop layout',async()=>{
+test('only three terms exist, first term is default, mobile and desktop layout',async()=>{
   for(const width of [320,375,390,1280]){
     const {context,page}=await open(width);
     try{
-      assert.equal(await page.locator('#term option[value="trial"]').isDisabled(),true);
+      assert.equal(await page.locator('#term').inputValue(),'1');
+      assert.deepEqual(await page.locator('#term option').evaluateAll(options=>options.map(o=>({value:o.value,text:o.textContent}))),[
+        {value:'1',text:'1学期'},{value:'2',text:'2学期'},{value:'3',text:'3学期'},
+      ]);
       for(const term of ['1','2','3']){
         await page.locator('#term').selectOption(term);
         assert.equal(await page.locator('#term').inputValue(),term);

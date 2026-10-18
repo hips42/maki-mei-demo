@@ -46,8 +46,9 @@ test('all 220 legacy questions remain intact and structurally valid',()=>{
   assert.deepEqual(counts,{read:55,write:55,word:60,phrase:50});
 });
 
-test('trial is disabled and first term is selected in HTML',()=>{
-  assert.match(html,/<option value="trial" disabled>/);
+test('only three terms exist and first term is selected in HTML',()=>{
+  const select=html.match(/<select id="term"[^>]*>([\s\S]*?)<\/select>/)[1];
+  assert.deepEqual([...select.matchAll(/<option value="([^"]+)"[^>]*>([^<]+)<\/option>/g)].map(m=>[m[1],m[2]]),[['1','1学期'],['2','2学期'],['3','3学期']]);
   assert.match(html,/<option value="1" selected>/);
 });
 
