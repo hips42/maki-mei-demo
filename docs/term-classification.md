@@ -1,15 +1,13 @@
 # 2026年度・中1 学期別出題の調査と実装
 
-調査日：2026-10-18。対象は貝塚市立第四中学校、中学1年、英語 NEW CROWN English Series 1（三省堂）、国語1（光村図書出版）。2026年度に使う令和7年度版の出版社資料を参照した。
+調査日：2026-10-18。対象は一般向け、中学1年、英語 NEW CROWN English Series 1（三省堂）、国語1（光村図書出版）。2026年度に使う令和7年度版の出版社資料を参照した。
 
 ## 根拠と確認できた範囲
 
-1. [貝塚市・令和7〜10年度使用教科書](https://www.city.kaizuka.lg.jp/kakuka/kyoiku/gakkojinken/topics/R07chukyokayo.html)：国語は光村図書出版、英語は三省堂 NEW CROWN。SUNSHINEの経過措置は令和6年度当時の中1・中2に対するもので、今回指定された2026年度の中1には該当しない。
 2. [三省堂・令和7年度版各種資料](https://tb.sanseido-publ.co.jp/07ncpr/) → [1年 指導・学習内容一覧 PDF](https://tb.sanseido-publ.co.jp/07ncpr/images/top/07nc_1_curric.pdf)：2ページの月別計画。p.1が4〜7月、p.2が9〜3月。文法事項と配当月を確認した。
 3. [三省堂・単元別指導・評価計画 PDF](https://tb.sanseido-publ.co.jp/07ncpr/images/top/07nc_hyoka_2501.pdf)：1年はPDF pp.2〜17。文法の単元目標を補助確認した。
 4. [光村図書・年間指導計画・評価計画資料](https://www.mitsumura-tosho.co.jp/kyokasho/c-kokugo/keikaku) → [1年 年間指導計画例 PDF](https://www.mitsumura-tosho.co.jp/download_file/view/28dc859f-f9cf-4e41-8421-6e372f8be976/609)：28ページの月別計画。単元名、学習事項、配当月を確認した。
 5. [光村図書・1年教材別資料](https://www.mitsumura-tosho.co.jp/kyokasho/c-kokugo/material1nen)：現行版の単元名・配列を補助確認。作品本文や練習問題は転用していない。
-6. [第四中学校・配布文書](https://www.kaizuka.ed.jp/kaizuka19/document)：今回の取得はエラー。対象学年・年度の教科別進度や試験範囲を確認できなかった。検索でも今回の分類を裏付ける学校資料は得られなかった。
 
 したがって、本アプリの学期は**出版社の月別計画を4〜7月＝1学期、9〜12月＝2学期、1〜3月＝3学期と対応させた参考区分**である。学校がこの進度を採用しているとは主張しない。画面に「出版社の年間指導計画を参考（学校の実際の進度は未確認）」と表示する。
 

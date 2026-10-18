@@ -16,7 +16,7 @@
     'e2': {term:'2',subject:'英語',unit:'Lesson 5–7／Language Focus 3–5',month:'9〜12月',source_url:english,locator:'PDF p.2 上半分',focus:'三人称単数現在形・現在進行形・一般動詞過去形'},
     'e3': {term:'3',subject:'英語',unit:'Lesson 8–9／Language Focus 6–7',month:'1〜2月',source_url:english,locator:'PDF p.2 下半分',focus:'be動詞過去形・過去進行形・未来表現'},
   };
-  window.MAKI_MEI_CURRICULUM = {school_year:2026,grade:1,basis:'publisher_plan',school_pacing_verified:false,units};
+  window.STUDY_CURRICULUM = {school_year:2026,grade:1,basis:'publisher_plan',school_pacing_verified:false,units};
 
   function aligned(q, unitId, status) {
     const u=units[unitId];
@@ -31,8 +31,8 @@
     '比較':'j1-organize','情報':'j1-organize','説明':'j1-organize','表現':'j1-expression',
     '意見':'j2-evidence','結果':'j2-evidence','関係':'j2-evidence','記録':'j2-listen',
   };
-  const originalBank=window.MAKI_MEI_BANK||[];
-  window.MAKI_MEI_BANK=originalBank.map(q=>{
+  const originalBank=window.STUDY_BANK||[];
+  window.STUDY_BANK=originalBank.map(q=>{
     const target=q.type==='write'?q.a:q.type==='read'?q.q.match(/「([^」]+)」/)?.[1]:null;
     const unitId=legacyTargets[target];
     return unitId?aligned(q,unitId,'plan_vocabulary'):q;
@@ -76,11 +76,11 @@
   function add(type,unitId,q,a,target) {
     const item=aligned({id:`original-2026-${type}-${String(++serial).padStart(3,'0')}`,type,q,a,
       original:true,target:target||a},unitId,'plan_original');
-    window.MAKI_MEI_BANK.push(item);
+    window.STUDY_BANK.push(item);
   }
   for(const [word,reading,example,unitId] of kanji)for(const type of ['read','write']){
     const term=units[unitId].term;
-    const exists=window.MAKI_MEI_BANK.some(q=>q.term===term&&q.type===type&&
+    const exists=window.STUDY_BANK.some(q=>q.term===term&&q.type===type&&
       (type==='write'?q.a===word:q.q.includes(`「${word}」`)));
     if(exists)continue;
     add(type,unitId,type==='read'?`「${word}」の読みをひらがなで書こう。用例：${example}`:
@@ -91,7 +91,7 @@
   // 単語は文中の指定語・語形を答える。教材本文の翻訳問題ではない。
   const words = {
     e1:[
-      ['I ___ Mei.（私はメイです）空欄をbe動詞1語で。','am'],
+      ['I ___ Player 2.（私はプレイヤー2です）空欄をbe動詞1語で。','am'],
       ['You ___ my friend.（あなたは私の友達です）空欄をbe動詞1語で。','are'],
       ['I ___ apples.（私はりんごが好きです）「好き」を表す動詞1語で。','like'],
       ['I ___ run fast.（私は速く走れます）「できる」を表す助動詞1語で。','can'],
@@ -106,8 +106,8 @@
       ['He ___ chess every day.（彼は毎日チェスをします）playを適切な形の1語に。','plays'],
       ['She ___ to school.（彼女は歩いて学校へ行きます）walkを適切な形の1語に。','walks'],
       ['My father ___ dinner.（父は夕食を作ります）cookを適切な形の1語に。','cooks'],
-      ['Mei ___ a dog.（メイは犬を飼っています）haveを適切な形の1語に。','has'],
-      ['Maki is ___ a book now.（マキは今、本を読んでいます）readを適切な形の1語に。','reading'],
+      ['Player 2 ___ a dog.（プレイヤー2は犬を飼っています）haveを適切な形の1語に。','has'],
+      ['Player 1 is ___ a book now.（プレイヤー1は今、本を読んでいます）readを適切な形の1語に。','reading'],
       ['They are ___ now.（彼らは今、泳いでいます）swimを適切な形の1語に。','swimming'],
       ['I ___ the park yesterday.（昨日、その公園を訪れました）visitを過去形1語に。','visited'],
       ['We ___ the room yesterday.（昨日、部屋を掃除しました）cleanを過去形1語に。','cleaned'],
@@ -124,7 +124,7 @@
       ['I ___ help you tomorrow.（明日、手伝います）空欄を未来の助動詞1語で。','will'],
       ['We are ___ to visit Kyoto.（京都を訪れる予定です）goを適切な形の1語に。','going'],
       ['___ you help me tomorrow?（明日、手伝ってくれますか）willを使う疑問文の最初の1語で。','will'],
-      ['Mei and Maki ___ happy.（メイとマキはうれしそうに見えます）lookを適切な形の1語に。','look'],
+      ['Player 2 and Player 1 ___ happy.（プレイヤー2とプレイヤー1はうれしそうに見えます）lookを適切な形の1語に。','look'],
     ],
   };
   const phrases = {
@@ -143,7 +143,7 @@
     e2:[
       ['She ___ play chess.（彼女はチェスをしません）doesを使い、空欄を2語で。','does not'],
       ['___ like cats?（彼は猫が好きですか）heを使い、空欄を2語で。','does he'],
-      ['Maki ___ a book now.（マキは今、本を読んでいます）readを変化させ、空欄を2語で。','is reading'],
+      ['Player 1 ___ a book now.（プレイヤー1は今、本を読んでいます）readを変化させ、空欄を2語で。','is reading'],
       ['We ___ lunch now.（私たちは今、昼食を食べています）eatを変化させ、空欄を2語で。','are eating'],
       ['___ playing tennis?（あなたはテニスをしていますか）youを使い、空欄を2語で。','are you'],
       ['They ___ in the pool now.（彼らは今、泳いでいます）swimを変化させ、空欄を2語で。','are swimming'],
@@ -155,14 +155,14 @@
     e3:[
       ['I ___ last night.（昨夜は忙しかったです）busyを使い、空欄を2語で。','was busy'],
       ['We ___ yesterday.（私たちは昨日、うれしかったです）happyを使い、空欄を2語で。','were happy'],
-      ['Mei ___ a book at eight.（メイは8時に本を読んでいました）readを変化させ、空欄を2語で。','was reading'],
+      ['Player 2 ___ a book at eight.（プレイヤー2は8時に本を読んでいました）readを変化させ、空欄を2語で。','was reading'],
       ['They ___ in the pool then.（彼らはその時、プールで泳いでいました）swimを変化させ、空欄を2語で。','were swimming'],
       ['___ studying at nine?（あなたは9時に勉強していましたか）youを使い、空欄を2語で。','were you'],
       ['I ___ dinner tomorrow.（明日、夕食を作ります）willとcookを使い、空欄を2語で。','will cook'],
       ['It ___ rain tomorrow.（明日は雨が降らないでしょう）willを使い、空欄を2語で。','will not'],
       ['I am ___ visit Nara.（奈良を訪れる予定です）goingを使い、空欄を2語で。','going to'],
       ['___ going to study tonight?（今夜、勉強する予定ですか）youを使い、空欄を2語で。','are you'],
-      ['Mei ___ today.（メイは今日はうれしそうです）lookとhappyを使い、空欄を2語で。','looks happy'],
+      ['Player 2 ___ today.（プレイヤー2は今日はうれしそうです）lookとhappyを使い、空欄を2語で。','looks happy'],
     ],
   };
   for(const [unitId,rows] of Object.entries(words))for(const [q,a] of rows)add('word',unitId,q,a);

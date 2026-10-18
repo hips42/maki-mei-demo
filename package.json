@@ -1,5 +1,5 @@
 {
-  "name": "maki-mei-demo",
+  "name": "study-game",
   "private": true,
   "scripts": {
     "test": "node --test tests/quiz.test.cjs",

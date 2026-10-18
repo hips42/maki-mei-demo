@@ -6,10 +6,10 @@ const http=require('node:http');
 const {chromium}=require('playwright');
 
 // No persistent profile or real hosting origin is used. Each scenario gets its own storage.
-const key='maki-mei-line-preview-v1';
+const key='\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031';
 const history={
-  'マキ':[{date:'2020-01-01',score:70,term:'trial',subject:'read',results:[],time:'2020-01-01T00:00:00Z'}],
-  'メイ':[{date:'2020-01-02',score:80,term:'trial',subject:'word',results:[],time:'2020-01-02T00:00:00Z'}],
+  'プレイヤー1':[{date:'2020-01-01',score:70,term:'trial',subject:'read',results:[],time:'2020-01-01T00:00:00Z'}],
+  'プレイヤー2':[{date:'2020-01-02',score:80,term:'trial',subject:'word',results:[],time:'2020-01-02T00:00:00Z'}],
 };
 const allowed=new Set(['/index.html','/extra_questions.js','/curriculum_questions.js','/assets/nekoda-nekoo.png']);
 let server,browser,origin;
@@ -64,7 +64,7 @@ async function layout(page){
 
 async function answer(page,correct=false){
   // Read the rendered prompt, then locate its production data; do not inject app state.
-  const q=await page.evaluate(()=>window.MAKI_MEI_BANK.find(q=>q.q===document.getElementById('question').textContent));
+  const q=await page.evaluate(()=>window.STUDY_BANK.find(q=>q.q===document.getElementById('question').textContent));
   assert.ok(q);
   if(q.type==='write'){
     const box=await page.locator('#pad').boundingBox();
@@ -127,13 +127,13 @@ test('all 15 term/subject choices finish 10 questions with real inputs, scoring 
       await layout(page);
       if(term==='3'&&subject==='phrase')await page.screenshot({path:'test-results/result-320.png',fullPage:true});
       const saved=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),key);
-      assert.deepEqual(saved['メイ'],history['メイ']);assert.deepEqual(saved['マキ'][0],history['マキ'][0]);
-      assert.equal(saved['マキ'].length,2);
-      assert.equal(saved['マキ'][1].results.length,10);
-      assert.equal(saved['マキ'][1].term,term);assert.equal(saved['マキ'][1].subject,subject);
+      assert.deepEqual(saved['プレイヤー2'],history['プレイヤー2']);assert.deepEqual(saved['プレイヤー1'][0],history['プレイヤー1'][0]);
+      assert.equal(saved['プレイヤー1'].length,2);
+      assert.equal(saved['プレイヤー1'][1].results.length,10);
+      assert.equal(saved['プレイヤー1'][1].term,term);assert.equal(saved['プレイヤー1'][1].subject,subject);
       await page.locator('#retry').click();
-      assert.match(await page.locator('#progressBoard').textContent(),/マキ：記録2回/);
-      assert.match(await page.locator('#progressBoard').textContent(),/メイ：記録1回/);
+      assert.match(await page.locator('#progressBoard').textContent(),/プレイヤー1：記録2回/);
+      assert.match(await page.locator('#progressBoard').textContent(),/プレイヤー2：記録1回/);
       assert.match(await page.locator('#ruleBoard').textContent(),/1\/3回/);
       await page.reload();
       assert.deepEqual(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),key),saved);
@@ -155,7 +155,7 @@ test('daily limit blocks fourth run across terms; perfect score clears day', {ti
     assert.match(await page.locator('#availability').textContent(),/3回を使い切った/);
     await page.locator('#term').selectOption('1');await page.locator('#subject').selectOption('phrase');
     assert.equal(await page.locator('#startBtn').isDisabled(),true);
-    await page.locator('#player').selectOption('メイ');
+    await page.locator('#player').selectOption('プレイヤー2');
     assert.equal(await page.locator('#startBtn').isEnabled(),true);
     await page.locator('#startBtn').click();
     for(let i=0;i<10;i++){await answer(page,true);await page.locator('#next').click();}

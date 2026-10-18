@@ -12,7 +12,7 @@ function app({curriculum=true}={}) {
     const classes = new Set(['play','finish','selfCheck','next'].includes(id) ? ['hidden'] : []);
     const handlers = {};
     return elements[id] = {
-      value: ({term:'1',subject:'mixed',player:'マキ'})[id] || '',
+      value: ({term:'1',subject:'mixed',player:'プレイヤー1'})[id] || '',
       style: {}, textContent:'', disabled:false,
       classList: {add:c=>classes.add(c),remove:c=>classes.delete(c),contains:c=>classes.has(c),toggle(c,on){if(on)classes.add(c);else classes.delete(c);}},
       addEventListener:(name,fn)=>{handlers[name]=fn;},
@@ -32,9 +32,9 @@ function app({curriculum=true}={}) {
 }
 
 test('all 220 legacy questions remain intact and structurally valid',()=>{
-  const baseline = app({curriculum:false}).context.window.MAKI_MEI_BANK;
+  const baseline = app({curriculum:false}).context.window.STUDY_BANK;
   const {context} = app();
-  const bank = context.window.MAKI_MEI_BANK;
+  const bank = context.window.STUDY_BANK;
   assert.equal(baseline.length,220);
   assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);
   const counts = {};
@@ -67,12 +67,12 @@ test('all real term/subject combinations exclude unverified questions and cannot
 
 // Synthetic fixtures verify future classified data without relabeling production questions.
 function fixtures(a,type='read',count=10){
-  a.context.window.MAKI_MEI_BANK=[];
+  a.context.window.STUDY_BANK=[];
   for(const term of ['1','2','3','trial'])for(const verified of [true,false])for(let i=0;i<count;i++)
     {
       const unitId=(['read','write'].includes(type)?{1:'j1-sound',2:'j2-evidence',3:'j3-grammar'}:{1:'e1',2:'e2',3:'e3'})[term];
-      const unit=a.context.window.MAKI_MEI_CURRICULUM.units[unitId];
-      a.context.window.MAKI_MEI_BANK.push({id:`${term}-${verified}-${i}`,term,verified:false,type,q:'テスト',a:'正解',
+      const unit=a.context.window.STUDY_CURRICULUM.units[unitId];
+      a.context.window.STUDY_BANK.push({id:`${term}-${verified}-${i}`,term,verified:false,type,q:'テスト',a:'正解',
         school_year:2026,grade:1,alignment_unit:unitId,alignment_basis:'publisher_plan',
         source_status:verified?'plan_original':'unverified',source_url:unit?.source_url,source_locator:unit?.locator});
     }
@@ -81,7 +81,7 @@ function fixtures(a,type='read',count=10){
 
 test('strict term and subject filtering, including mixed kanji',()=>{
   const a=app();fixtures(a);
-  a.context.window.MAKI_MEI_BANK.push({...a.context.window.MAKI_MEI_BANK[0],id:'write',type:'write',q:'書く',a:'書'});
+  a.context.window.STUDY_BANK.push({...a.context.window.STUDY_BANK[0],id:'write',type:'write',q:'書く',a:'書'});
   for(const term of ['1','2','3']){
     a.element('term').value=term;
     const pool=a.run('selectedPool()');assert.equal(pool.length,10);
@@ -108,19 +108,19 @@ for(const type of ['read','write','word','phrase'])test(`${type}: wrong answers 
     a.element('next').click();
   }
   assert.equal(a.element('finalScore').textContent,'0点');
-  const saved=JSON.parse(a.storage.get('maki-mei-line-preview-v1'))['マキ'];
+  const saved=JSON.parse(a.storage.get('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031'))['プレイヤー1'];
   assert.equal(saved.length,1);assert.equal(saved[0].results.length,10);
   assert.equal(saved[0].term,'1');assert.equal(saved[0].subject,type);
-  assert.equal(a.run("stats('マキ').remaining"),2);
+  assert.equal(a.run("stats('プレイヤー1').remaining"),2);
 });
 
 test('existing history survives and 100 points still clears the day',()=>{
   const a=app();fixtures(a);
-  a.storage.set('maki-mei-line-preview-v1',JSON.stringify({'メイ':[{date:'2020-01-01',score:50,term:'trial',results:[]}]}));
+  a.storage.set('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031',JSON.stringify({'プレイヤー2':[{date:'2020-01-01',score:50,term:'trial',results:[]}]}));
   a.run('loadProgress();updateAvailability()');a.element('startBtn').click();
   for(let i=0;i<10;i++){a.element('typed').value='正解';a.element('readCheck').click();a.element('next').click();}
-  const saved=JSON.parse(a.storage.get('maki-mei-line-preview-v1'));
-  assert.equal(saved['メイ'][0].score,50);assert.equal(saved['マキ'][0].score,100);
+  const saved=JSON.parse(a.storage.get('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031'));
+  assert.equal(saved['プレイヤー2'][0].score,50);assert.equal(saved['プレイヤー1'][0].score,100);
   a.element('retry').click();assert.equal(a.element('startBtn').disabled,true);
 });
 
@@ -144,7 +144,7 @@ test('production data: each term and subject starts with ten scoped questions an
     }
     assert.equal(a.element('finalScore').textContent,'50点');
     a.element('next').click(); // A second result click must not save another run.
-    const runs=JSON.parse(a.storage.get('maki-mei-line-preview-v1'))['マキ'];
+    const runs=JSON.parse(a.storage.get('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031'))['プレイヤー1'];
     assert.equal(runs.length,1);assert.equal(runs[0].results.length,10);
     assert.equal(runs[0].term,term);assert.equal(runs[0].subject,subject);
   }
@@ -157,7 +157,7 @@ test('production data: third completed run exhausts daily allowance across terms
     a.run('updateAvailability()');assert.equal(a.element('startBtn').disabled,false);
     a.element('startBtn').click();
     for(let i=0;i<10;i++){a.element('typed').value='wrong';a.element('readCheck').click();a.element('next').click();}
-    assert.equal(a.run("stats('マキ').remaining"),3-attempt);
+    assert.equal(a.run("stats('プレイヤー1').remaining"),3-attempt);
     a.element('retry').click();
   }
   assert.equal(a.element('startBtn').disabled,true);
@@ -166,10 +166,10 @@ test('production data: third completed run exhausts daily allowance across terms
   assert.equal(a.element('startBtn').disabled,true);
   a.element('startBtn').disabled=false;a.element('startBtn').click();
   assert.ok(a.element('play').classList.contains('hidden'));
-  assert.equal(a.run("stats('マキ').runs.length"),3);
-  a.element('player').value='メイ';a.run('loadProgress()');
+  assert.equal(a.run("stats('プレイヤー1').runs.length"),3);
+  a.element('player').value='プレイヤー2';a.run('loadProgress()');
   assert.equal(a.element('startBtn').disabled,false);
-  assert.equal(a.run("stats('メイ').remaining"),3);
+  assert.equal(a.run("stats('プレイヤー2').remaining"),3);
 });
 
 test('unclassified, wrong year, mismatched unit and forged verified flags never enter pool',()=>{
@@ -180,13 +180,13 @@ test('unclassified, wrong year, mismatched unit and forged verified flags never 
     {...q,id:'bad-url',source_url:'https://example.com'},
     {...q,id:'unverified',source_status:'unverified'},
     {...q,id:'flag-only',alignment_basis:undefined,verified:true}];
-  a.context.window.MAKI_MEI_BANK=variants;
+  a.context.window.STUDY_BANK=variants;
   assert.equal(a.run('selectedPool().length'),0);
   a.run('updateAvailability()');assert.equal(a.element('startBtn').disabled,true);
 });
 
 test('classification evidence and documentation stay consistent',()=>{
-  const a=app(), bank=a.context.window.MAKI_MEI_BANK;
+  const a=app(), bank=a.context.window.STUDY_BANK;
   const audit=JSON.parse(fs.readFileSync('docs/classification-results.json','utf8'));
   assert.equal(audit.total,bank.length);assert.equal(audit.legacy_total,220);
   assert.equal(audit.legacy_classified,16);assert.equal(audit.legacy_unclassified,204);
@@ -195,7 +195,7 @@ test('classification evidence and documentation stay consistent',()=>{
     const documented=audit.questions.find(row=>row.id===q.id);
     for(const key of Object.keys(q))assert.deepEqual(documented[key],JSON.parse(JSON.stringify(q[key])));
     if(q.term==='trial')continue;
-    const unit=a.context.window.MAKI_MEI_CURRICULUM.units[q.alignment_unit];
+    const unit=a.context.window.STUDY_CURRICULUM.units[q.alignment_unit];
     assert.equal(q.term,unit.term);assert.ok(q.source_url&&q.source_locator);
     assert.equal(q.school_pacing_verified,false);
     if(q.original&&q.type==='phrase')assert.equal(q.a.split(' ').length,2);
@@ -205,11 +205,17 @@ test('classification evidence and documentation stay consistent',()=>{
 
 test('past runs do not consume today allowance and current JST date is used for saving',()=>{
   const a=app();
-  a.storage.set('maki-mei-line-preview-v1',JSON.stringify({'マキ':Array.from({length:3},()=>({date:'2020-01-01',score:0,term:'trial',results:[]}))}));
-  a.run('loadProgress()');assert.equal(a.run("stats('マキ').remaining"),3);
+  a.storage.set('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031',JSON.stringify({'プレイヤー1':Array.from({length:3},()=>({date:'2020-01-01',score:0,term:'trial',results:[]}))}));
+  a.run('loadProgress()');assert.equal(a.run("stats('プレイヤー1').remaining"),3);
   a.element('subject').value='word';a.run('updateAvailability()');a.element('startBtn').click();
   for(let i=0;i<10;i++){a.element('typed').value='wrong';a.element('readCheck').click();a.element('next').click();}
-  const runs=JSON.parse(a.storage.get('maki-mei-line-preview-v1'))['マキ'];
+  const runs=JSON.parse(a.storage.get('\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031'))['プレイヤー1'];
   assert.equal(runs.length,4);assert.equal(runs[3].date,a.run('todayJst()'));
-  assert.equal(a.run("stats('マキ').remaining"),2);
+  assert.equal(a.run("stats('プレイヤー1').remaining"),2);
+});
+
+
+test('legacy player history stays intact when generic player finishes a run',()=>{
+ const a=app(),oldName='\u30de\u30ad',key='\u006d\u0061\u006b\u0069\u002d\u006d\u0065\u0069\u002d\u006c\u0069\u006e\u0065\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077\u002d\u0076\u0031';
+ const old={date:'2020-01-01',score:70,term:'trial',results:[]};a.storage.set(key,JSON.stringify({[oldName]:[old]}));a.run('loadProgress()');assert.equal(a.run("stats('プレイヤー1').runs.length"),1);a.element('subject').value='word';a.run('updateAvailability()');a.element('startBtn').click();for(let i=0;i<10;i++){a.element('typed').value='wrong';a.element('readCheck').click();a.element('next').click();}const saved=JSON.parse(a.storage.get(key));assert.deepEqual(saved[oldName][0],old);assert.equal(saved[oldName].length,2);assert.equal(saved['プレイヤー1'],undefined);
 });

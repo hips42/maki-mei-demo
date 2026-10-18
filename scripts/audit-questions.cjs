@@ -5,9 +5,9 @@ const context = vm.createContext({window:{}});
 const html = fs.readFileSync('index.html','utf8');
 vm.runInContext([...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1],context);
 vm.runInContext(fs.readFileSync('extra_questions.js','utf8'),context);
-const legacy = JSON.parse(JSON.stringify(context.window.MAKI_MEI_BANK));
+const legacy = JSON.parse(JSON.stringify(context.window.STUDY_BANK));
 vm.runInContext(fs.readFileSync('curriculum_questions.js','utf8'),context);
-const bank = context.window.MAKI_MEI_BANK;
+const bank = context.window.STUDY_BANK;
 const counts = {};
 for(const q of bank) counts[q.type]=(counts[q.type]||0)+1;
 const legacyById = new Map(legacy.map(q=>[q.id,q]));
@@ -18,14 +18,14 @@ for(const term of ['1','2','3']){
   byTerm[term].mixed=byTerm[term].read+byTerm[term].write;
 }
 const audit = {
-  school_year:2026,grade:1,school:'貝塚市立第四中学校',basis:'publisher_plan',school_pacing_verified:false,
+  school_year:2026,grade:1,school:'一般向け',basis:'publisher_plan',school_pacing_verified:false,
   total:bank.length, counts,
   textbook_verified:bank.filter(q=>q.verified===true).length,
   legacy_total:legacy.length,
   legacy_classified:bank.filter(q=>legacyById.has(q.id)&&q.alignment_basis==='publisher_plan').length,
   legacy_unclassified:bank.filter(q=>legacyById.has(q.id)&&q.term==='trial').length,
   added:bank.length-legacy.length,by_term:byTerm,
-  units:context.window.MAKI_MEI_CURRICULUM.units,
+  units:context.window.STUDY_CURRICULUM.units,
   questions:bank.map(q=>({...q,subject:['read','write'].includes(q.type)?'国語':'英語',
     origin:legacyById.has(q.id)?'legacy':'original_2026',
     previous_term:legacyById.get(q.id)?.term||null,

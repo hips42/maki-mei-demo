@@ -1,5 +1,5 @@
 /* 問題200問追加：オリジナル・学期未分類。出題語の学校採用教科書との照合は未完了 */
-window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
+window.STUDY_BANK = (window.STUDY_BANK || []).concat([
   {
     "id": "extra-read-001",
     "type": "read",
@@ -10,7 +10,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-002",
@@ -22,7 +22,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-003",
@@ -34,7 +34,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-004",
@@ -46,7 +46,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-005",
@@ -58,7 +58,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-006",
@@ -70,7 +70,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-007",
@@ -82,7 +82,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-008",
@@ -94,7 +94,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-009",
@@ -106,7 +106,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-010",
@@ -118,7 +118,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-011",
@@ -130,7 +130,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-012",
@@ -142,7 +142,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-013",
@@ -154,7 +154,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-014",
@@ -166,7 +166,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-015",
@@ -178,7 +178,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-016",
@@ -190,7 +190,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-017",
@@ -202,7 +202,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-018",
@@ -214,7 +214,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-019",
@@ -226,7 +226,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-020",
@@ -238,7 +238,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-021",
@@ -250,7 +250,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-022",
@@ -262,7 +262,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-023",
@@ -274,7 +274,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-024",
@@ -286,7 +286,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-025",
@@ -298,7 +298,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-026",
@@ -310,7 +310,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-027",
@@ -322,7 +322,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-028",
@@ -334,7 +334,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-029",
@@ -346,7 +346,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-030",
@@ -358,7 +358,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-031",
@@ -370,7 +370,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-032",
@@ -382,7 +382,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-033",
@@ -394,7 +394,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-034",
@@ -406,7 +406,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-035",
@@ -418,7 +418,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-036",
@@ -430,7 +430,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-037",
@@ -442,7 +442,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-038",
@@ -454,7 +454,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-039",
@@ -466,7 +466,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-040",
@@ -478,7 +478,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-041",
@@ -490,7 +490,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-042",
@@ -502,7 +502,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-043",
@@ -514,7 +514,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-044",
@@ -526,7 +526,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-045",
@@ -538,7 +538,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-046",
@@ -550,7 +550,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-047",
@@ -562,7 +562,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-048",
@@ -574,7 +574,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-049",
@@ -586,7 +586,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-read-050",
@@ -598,7 +598,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-001",
@@ -610,7 +610,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-002",
@@ -622,7 +622,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-003",
@@ -634,7 +634,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-004",
@@ -646,7 +646,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-005",
@@ -658,7 +658,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-006",
@@ -670,7 +670,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-007",
@@ -682,7 +682,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-008",
@@ -694,7 +694,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-009",
@@ -706,7 +706,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-010",
@@ -718,7 +718,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-011",
@@ -730,7 +730,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-012",
@@ -742,7 +742,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-013",
@@ -754,7 +754,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-014",
@@ -766,7 +766,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-015",
@@ -778,7 +778,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-016",
@@ -790,7 +790,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-017",
@@ -802,7 +802,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-018",
@@ -814,7 +814,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-019",
@@ -826,7 +826,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-020",
@@ -838,7 +838,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-021",
@@ -850,7 +850,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-022",
@@ -862,7 +862,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-023",
@@ -874,7 +874,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-024",
@@ -886,7 +886,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-025",
@@ -898,7 +898,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-026",
@@ -910,7 +910,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-027",
@@ -922,7 +922,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-028",
@@ -934,7 +934,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-029",
@@ -946,7 +946,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-030",
@@ -958,7 +958,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-031",
@@ -970,7 +970,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-032",
@@ -982,7 +982,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-033",
@@ -994,7 +994,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-034",
@@ -1006,7 +1006,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-035",
@@ -1018,7 +1018,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-036",
@@ -1030,7 +1030,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-037",
@@ -1042,7 +1042,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-038",
@@ -1054,7 +1054,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-039",
@@ -1066,7 +1066,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-040",
@@ -1078,7 +1078,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-041",
@@ -1090,7 +1090,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-042",
@@ -1102,7 +1102,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-043",
@@ -1114,7 +1114,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-044",
@@ -1126,7 +1126,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-045",
@@ -1138,7 +1138,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-046",
@@ -1150,7 +1150,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-047",
@@ -1162,7 +1162,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-048",
@@ -1174,7 +1174,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-049",
@@ -1186,7 +1186,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-write-050",
@@ -1198,7 +1198,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 2,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-001",
@@ -1210,7 +1210,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-002",
@@ -1222,7 +1222,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-003",
@@ -1234,7 +1234,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-004",
@@ -1246,7 +1246,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-005",
@@ -1258,7 +1258,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-006",
@@ -1270,7 +1270,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-007",
@@ -1282,7 +1282,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-008",
@@ -1294,7 +1294,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-009",
@@ -1306,7 +1306,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-010",
@@ -1318,7 +1318,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-011",
@@ -1330,7 +1330,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-012",
@@ -1342,7 +1342,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-013",
@@ -1354,7 +1354,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-014",
@@ -1366,7 +1366,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-015",
@@ -1378,7 +1378,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-016",
@@ -1390,7 +1390,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-017",
@@ -1402,7 +1402,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-018",
@@ -1414,7 +1414,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-019",
@@ -1426,7 +1426,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-020",
@@ -1438,7 +1438,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-021",
@@ -1450,7 +1450,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-022",
@@ -1462,7 +1462,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-023",
@@ -1474,7 +1474,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-024",
@@ -1486,7 +1486,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-025",
@@ -1498,7 +1498,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-026",
@@ -1510,7 +1510,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-027",
@@ -1522,7 +1522,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-028",
@@ -1534,7 +1534,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-029",
@@ -1546,7 +1546,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-030",
@@ -1558,7 +1558,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-031",
@@ -1570,7 +1570,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-032",
@@ -1582,7 +1582,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-033",
@@ -1594,7 +1594,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-034",
@@ -1606,7 +1606,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-035",
@@ -1618,7 +1618,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-036",
@@ -1630,7 +1630,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-037",
@@ -1642,7 +1642,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-038",
@@ -1654,7 +1654,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-039",
@@ -1666,7 +1666,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-040",
@@ -1678,7 +1678,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-041",
@@ -1690,7 +1690,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-042",
@@ -1702,7 +1702,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-043",
@@ -1714,7 +1714,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-044",
@@ -1726,7 +1726,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-045",
@@ -1738,7 +1738,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-046",
@@ -1750,7 +1750,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-047",
@@ -1762,7 +1762,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-048",
@@ -1774,7 +1774,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-049",
@@ -1786,7 +1786,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-word-050",
@@ -1798,7 +1798,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-001",
@@ -1810,7 +1810,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-002",
@@ -1822,7 +1822,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-003",
@@ -1834,7 +1834,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-004",
@@ -1846,7 +1846,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-005",
@@ -1858,7 +1858,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-006",
@@ -1870,7 +1870,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-007",
@@ -1882,7 +1882,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-008",
@@ -1894,7 +1894,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-009",
@@ -1906,7 +1906,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-010",
@@ -1918,7 +1918,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-011",
@@ -1930,7 +1930,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-012",
@@ -1942,7 +1942,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-013",
@@ -1954,7 +1954,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-014",
@@ -1966,7 +1966,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-015",
@@ -1978,7 +1978,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-016",
@@ -1990,7 +1990,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-017",
@@ -2002,7 +2002,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-018",
@@ -2014,7 +2014,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-019",
@@ -2026,7 +2026,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-020",
@@ -2038,7 +2038,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-021",
@@ -2050,7 +2050,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-022",
@@ -2062,7 +2062,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-023",
@@ -2074,7 +2074,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-024",
@@ -2086,7 +2086,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-025",
@@ -2098,7 +2098,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-026",
@@ -2110,7 +2110,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-027",
@@ -2122,7 +2122,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-028",
@@ -2134,7 +2134,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-029",
@@ -2146,7 +2146,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-030",
@@ -2158,7 +2158,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-031",
@@ -2170,7 +2170,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-032",
@@ -2182,7 +2182,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-033",
@@ -2194,7 +2194,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-034",
@@ -2206,7 +2206,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-035",
@@ -2218,7 +2218,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-036",
@@ -2230,7 +2230,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-037",
@@ -2242,7 +2242,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-038",
@@ -2254,7 +2254,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-039",
@@ -2266,7 +2266,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-040",
@@ -2278,7 +2278,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-041",
@@ -2290,7 +2290,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-042",
@@ -2302,7 +2302,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-043",
@@ -2314,7 +2314,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-044",
@@ -2326,7 +2326,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-045",
@@ -2338,7 +2338,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-046",
@@ -2350,7 +2350,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-047",
@@ -2362,7 +2362,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-048",
@@ -2374,7 +2374,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-049",
@@ -2386,7 +2386,7 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   },
   {
     "id": "extra-phrase-050",
@@ -2398,6 +2398,6 @@ window.MAKI_MEI_BANK = (window.MAKI_MEI_BANK || []).concat([
     "verified": false,
     "level": 1,
     "source_status": "unverified",
-    "source_note": "独自作成。貝塚市立第四中学校の教科書掲載範囲・学期区分は未確認"
+    "source_note": "独自作成。一般向けの教科書掲載範囲・学期区分は未確認"
   }
 ]);
